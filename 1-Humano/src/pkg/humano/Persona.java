@@ -12,7 +12,7 @@ package pkg.humano;
 public class Persona {
 
     private String nombre;
-    private int edad;
+    private int edad; 
 
     public Persona(String nombre, int edad) {
         this.nombre = nombre;
