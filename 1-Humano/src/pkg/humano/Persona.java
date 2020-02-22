@@ -14,9 +14,19 @@ public class Persona {
     private String nombre;
     private int edad;
 
-    public Persona(String nombre, int edad) {
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+    private String sexo;
+
+    public Persona(String nombre, int edad, String sexo) {
         this.nombre = nombre;
         this.edad = edad;
+        this.sexo = sexo;
     }
 
     public String getNombre() {
