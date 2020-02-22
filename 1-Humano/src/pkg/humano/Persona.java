@@ -27,6 +27,7 @@ public class Persona {
         this.nombre = nombre;
         this.edad = edad;
         this.sexo = sexo;
+        // Roberto Gay
     }
 
     public String getNombre() {
